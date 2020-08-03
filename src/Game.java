@@ -43,6 +43,11 @@ public class Game {
         this.goalsOfAwayTeam = goalsOfAwayTeam;
     }
 
+    public boolean containsTeam(Team team) {
+        return this.awayTeam.equals(team)
+                || this.homeTeam.equals(team);
+    }
+
     @Override
     public String toString() {
         return "Game{" +

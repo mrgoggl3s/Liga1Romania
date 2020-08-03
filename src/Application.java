@@ -7,5 +7,13 @@ public class Application {
         Team botosani = new Team("Botosani");
 
 
+        TeamStorage.TEAM_STORAGE.add(cfr);
+        TeamStorage.TEAM_STORAGE.add(craiova);
+        TeamStorage.TEAM_STORAGE.add(astra);
+        TeamStorage.TEAM_STORAGE.add(botosani);
+
+        Championship championship = new Championship();
+        championship.startChampionship();
+
     }
 }

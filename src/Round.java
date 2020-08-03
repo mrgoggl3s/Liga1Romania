@@ -6,8 +6,6 @@ public class Round {
    private List<Game> games = new ArrayList<>();
 
 
-
-
    public List<Game> getRound() {
       return games;
    }
